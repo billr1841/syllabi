@@ -1,5 +1,6 @@
 git add .
-git commit -m "add/remove/update syllabi"
+read -p "Enter comment: " comment
+git commit -m "$comment"
 git status
 git push
 
